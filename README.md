@@ -19,7 +19,7 @@
 
 
 <p align="center">
-  <img src="fig/e2d_advantage.png" alt="E2D Advantage Overview" style="max-width:650px; width:100%; height:auto;" />
+  <img src="fig/e2d_advantage.png" alt="E2D Advantage Overview" style="max-width:600px; width:100%; height:auto;" />
 </p>
 
 
