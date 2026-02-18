@@ -30,9 +30,6 @@
 
 ---
 ## 📚 Table of Contents
-- [🚀 Accelerating Large-Scale Dataset Distillation via Exploration–Exploitation Optimization (E²D)](#-accelerating-large-scale-dataset-distillation-via-explorationexploitation-optimization-ed)
-  - [📰 News \& Updates](#-news--updates)
-  - [📚 Table of Contents](#-table-of-contents)
   - [📝 Abstract](#-abstract)
   - [🔍 Overview](#-overview)
     - [🔀 Branches](#-branches)
