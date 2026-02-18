@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/github/stars/ncsu-dk-lab/E2D?style=social" />
 </p>
 
----
 
 🧠 **TL;DR**  
 **E²D** delivers 4–18× faster dataset distillation by removing redundancy in initialization and optimization through full‑image initialization and a novel targeted‑optimization strategy that eliminates redundant computation.
@@ -23,12 +22,11 @@
   <img src="fig/e2d_advantage.png" alt="E2D Advantage Overview" style="max-width:650px; width:100%; height:auto;" />
 </p>
 
----
 
 ## 📰 News & Updates
 - **2026-02**: Initial public release of the E²D codebase.
 
----
+
 ## 📚 Table of Contents
   - [📝 Abstract](#-abstract)
   - [🔍 Overview](#-overview)
@@ -42,7 +40,6 @@
   - [📖 References](#-references)
   - [📑 Bibliography](#-bibliography)
 
----
 
 
 ## 📝 Abstract
@@ -50,7 +47,6 @@
 ![E2D Overview](fig/e2d_overview.png)
 Dataset distillation compresses the original data into compact synthetic datasets, reducing training time and storage while retaining model performance, enabling deployment under limited resources. Although recent decoupling-based distillation methods enable dataset distillation at large-scale, they continue to face an efficiency gap: optimization‑based decoupling methods achieve higher accuracy but demand intensive computation, whereas optimization‑free decoupling methods are efficient but sacrifice accuracy. To overcome this trade‑off, we propose Exploration--Exploitation Distillation (E$^2$D), a simple, practical method that minimizes redundant computation through an efficient pipeline that begins with full-image initialization to preserve semantic integrity and feature diversity. It then uses a two‑phase optimization strategy: an exploration phase that performs uniform updates and identifies high‑loss regions, and an exploitation phase that focuses updates on these regions to accelerate convergence. We evaluate E$^2$D on large-scale benchmarks, surpassing the state-of-the-art on ImageNet-1K while being 18$\times$ faster, and on ImageNet-21K, our method substantially improves accuracy while remaining 4.3$\times$ faster. These results demonstrate that targeted, redundancy-reducing updates, rather than brute-force optimization, bridge the gap between accuracy and efficiency in large-scale dataset distillation.
 
----
 
 ## 🔍 Overview
 
@@ -75,7 +71,6 @@ For ImageNet-1K, IPC denotes the total number of distilled images per class and 
 
 Baseline procedures follow **EDC** (ImageNet-1K) and **CDA** (ImageNet-21K).
 
----
 
 ## ⚙️ Requirements
 
@@ -98,7 +93,6 @@ For faster setup, ImageNet-1K statistics can be downloaded from the **EDC** repo
 
 ### 🔽 Distilled datasets
 - Our distilled datasets can be downloaded from this [link](https://drive.google.com/drive/folders/1cWBsUIghwAys8Um2F7n3prHgV6x1fYUd)
----
 
 ## 🗂️ Folder Structure
 
@@ -125,7 +119,6 @@ For faster setup, ImageNet-1K statistics can be downloaded from the **EDC** repo
 
 
 
----
 
 ## 📖 References
 
@@ -135,7 +128,6 @@ For faster setup, ImageNet-1K statistics can be downloaded from the **EDC** repo
 - [**RDED** — On the Diversity and Realism of Distilled Dataset](https://github.com/LINs-lab/RDED)
 - [**G-VBSM** — Generalized Large-Scale Data Condensation](https://github.com/shaoshitong/G_VBSM_Dataset_Condensation)
 
----
 
 ## 📑 Bibliography
 
